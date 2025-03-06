@@ -12,6 +12,7 @@
     discord
     gh
     google-chrome
+    gimp
 
     # GNOME tools
     dconf-editor
@@ -24,5 +25,6 @@
     gnomeExtensions.blur-my-shell
     gnomeExtensions.appindicator
     gnomeExtensions.window-is-ready-remover
+    gnomeExtensions.tiling-assistant
   ];
 }

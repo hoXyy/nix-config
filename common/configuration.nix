@@ -22,6 +22,10 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  # Timezone config
+  services.automatic-timezoned.enable = true;
+  services.geoclue2.geoProviderUrl = "https://api.beacondb.net/v1/geolocate";
+
   # Enable Wayland in Chromium apps
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 

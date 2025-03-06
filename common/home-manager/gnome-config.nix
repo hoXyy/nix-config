@@ -12,14 +12,7 @@
           pkgs.gnomeExtensions.blur-my-shell.extensionUuid
           pkgs.gnomeExtensions.appindicator.extensionUuid
           pkgs.gnomeExtensions.window-is-ready-remover.extensionUuid
-        ];
-        favourite-apps = [
-          "google-chrome.desktop"
-          "org.gnome.Nautilus.desktop"
-          "discord.desktop"
-          "org.gnome.Console.desktop"
-          "code.desktop"
-          "spotify.desktop"
+          pkgs.gnomeExtensions.tiling-assistant.extensionUuid
         ];
       };
 
