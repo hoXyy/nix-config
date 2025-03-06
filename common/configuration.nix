@@ -9,6 +9,7 @@
     inputs.home-manager.nixosModules.home-manager
     ./gnome.nix
     ./flatpak.nix
+    ./docker.nix
   ];
 
   # Enable CUPS to print documents.
@@ -39,6 +40,8 @@
     wget
     nixfmt-rfc-style
     nil
+    distrobox
+    python3Full
   ];
 
   xdg.portal = {

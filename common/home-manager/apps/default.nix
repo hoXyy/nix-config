@@ -14,6 +14,7 @@
     google-chrome
     gimp
     fnm
+    boxbuddy
 
     # Shell tools
     starship
