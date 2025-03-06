@@ -59,6 +59,21 @@
             ./hosts/pc/configuration.nix
           ];
         };
+
+        hoxi-laptop-nixos = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit
+              inputs
+              outputs
+              pkgs
+              pkgs-unstable
+              ;
+          };
+          modules = [
+            nix-flatpak.nixosModules.nix-flatpak
+            ./hosts/laptop/configuration.nix
+          ];
+        };
       };
     };
 }
