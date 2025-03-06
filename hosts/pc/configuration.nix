@@ -66,6 +66,8 @@
 
   powerManagement.cpuFreqGovernor = "performance";
 
+  programs.zsh.enable = true;
+
   users.users.hoxi = {
     isNormalUser = true;
     description = "hoxi";
@@ -74,15 +76,14 @@
       "wheel"
     ];
     packages = with pkgs; [
-      kdePackages.kate
       google-chrome
       vscode-fhs
       spotify
       discord
       git
       gh
-      #  thunderbird
     ];
+    shell = pkgs.zsh;
   };
 
   home-manager = {

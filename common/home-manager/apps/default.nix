@@ -13,6 +13,10 @@
     gh
     google-chrome
     gimp
+    fnm
+
+    # Shell tools
+    starship
 
     # GNOME tools
     dconf-editor
