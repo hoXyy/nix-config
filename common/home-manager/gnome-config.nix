@@ -25,7 +25,7 @@
         color-scheme = "prefer-dark";
         document-font-name = "Adwaita Sans 11";
         font-name = "Adwaita Sans 11";
-        monospace-font-name = "JetBrains Mono NL Medium 10";
+        monospace-font-name = "JetBrains Mono Semi-Bold 11";
         enable-hot-corners = false;
       };
 

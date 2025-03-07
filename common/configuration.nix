@@ -61,8 +61,9 @@
   fonts = {
     enableDefaultPackages = true;
     packages = [
-      pkgs.jetbrains-mono
       pkgs-unstable.adwaita-fonts
+      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+      pkgs.jetbrains-mono
     ];
   };
 }
