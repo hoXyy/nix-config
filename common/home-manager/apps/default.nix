@@ -8,20 +8,23 @@
 
   # List of packages to just install, won't have configuration applied by Nix
   home.packages = with pkgs; [
-    vscode-fhs
     discord
-    gh
     google-chrome
     gimp
-    fnm
+    vlc
+
+    # Dev tools
     boxbuddy
+    jetbrains-toolbox
+    vscode-fhs
+    gh
+    fnm
 
     # Shell tools
     starship
 
     # GNOME tools
     dconf-editor
-    gnome-tweaks
     mission-center
 
     # GNOME extensions

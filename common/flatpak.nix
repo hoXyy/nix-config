@@ -6,6 +6,7 @@
       "com.obsproject.Studio"
       "com.usebottles.bottles"
       "com.spotify.Client"
+      "page.tesk.Refine"
     ];
   };
 }

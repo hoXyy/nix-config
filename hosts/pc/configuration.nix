@@ -23,6 +23,7 @@
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
     ../../common/configuration.nix
+    ./flatpak.nix
   ];
 
   nixpkgs = {
@@ -104,7 +105,7 @@
   hardware.nvidia = {
     modesetting.enable = true;
 
-    powerManagement.enable = false;
+    powerManagement.enable = true;
     powerManagement.finegrained = false;
 
     open = false;
