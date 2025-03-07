@@ -62,7 +62,7 @@
     enableDefaultPackages = true;
     packages = [
       pkgs-unstable.adwaita-fonts
-      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; }) # Install only JetBrains Mono nerd font
       pkgs.jetbrains-mono
     ];
   };
