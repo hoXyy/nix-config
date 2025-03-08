@@ -64,6 +64,7 @@
       "networkmanager"
       "wheel"
     ];
+    shell = pkgs.zsh;
   };
 
   home-manager = {
