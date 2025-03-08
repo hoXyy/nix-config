@@ -57,6 +57,8 @@
 
   networking.hostName = "hoxi-laptop-nixos";
 
+  programs.zsh.enable = true;
+
   users.users.hoxi = {
     isNormalUser = true;
     description = "hoxi";
