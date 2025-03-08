@@ -76,14 +76,6 @@
       "networkmanager"
       "wheel"
     ];
-    packages = with pkgs; [
-      google-chrome
-      vscode-fhs
-      spotify
-      discord
-      git
-      gh
-    ];
     shell = pkgs.zsh;
   };
 
