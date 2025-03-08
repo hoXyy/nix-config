@@ -54,6 +54,7 @@
     libdbusmenu
     libdrm
     libgcrypt
+    libgcc
     libgpg-error
     libidn
     libjack2
@@ -64,6 +65,7 @@
     libpulseaudio
     librsvg
     libsamplerate
+    libstdcxx5
     libthai
     libtheora
     libtiff
@@ -76,6 +78,7 @@
     libxcrypt-legacy
     libxkbcommon
     libxml2
+    libuv
     mesa
     nspr
     nss
@@ -86,6 +89,7 @@
     python3
     speex
     stdenv.cc.cc
+    stdenv.cc.cc.lib
     tbb
     udev
     vulkan-loader
@@ -118,5 +122,6 @@
     xorg.xkeyboardconfig
     xz
     zlib
+    glibc
   ];
 }

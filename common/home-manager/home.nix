@@ -32,6 +32,9 @@
   home = {
     username = "hoxi";
     homeDirectory = "/home/hoxi";
+    sessionVariables = {
+      NVM_DIR = "$HOME/.nvm";
+    };
   };
 
   # Enable home-manager

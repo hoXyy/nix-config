@@ -1,10 +1,16 @@
 { pkgs, ... }:
+let
+  nvm = import ./nvm.nix { inherit pkgs; };
+in
 {
   # Separate files for programs that have options added
   imports = [
     ./git.nix
     ./shell.nix
   ];
+
+  # Create nvm.sh file for nvm package
+  home.file.".nvm/nvm.sh".source = "${nvm}/share/nvm/nvm.sh";
 
   # List of packages to just install, won't have configuration applied by Nix
   home.packages = with pkgs; [
@@ -18,7 +24,7 @@
     jetbrains-toolbox
     vscode-fhs
     gh
-    fnm
+    nvm
 
     # Shell tools
     starship
