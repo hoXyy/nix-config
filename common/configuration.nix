@@ -10,6 +10,7 @@
     ./gnome.nix
     ./flatpak.nix
     ./docker.nix
+    ./nix-ld.nix
   ];
 
   # Enable CUPS to print documents.
@@ -29,12 +30,6 @@
 
   # Enable Wayland in Chromium apps
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
-  # Make Node.js work properly
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    fnm
-  ];
 
   environment.systemPackages = with pkgs; [
     wget
