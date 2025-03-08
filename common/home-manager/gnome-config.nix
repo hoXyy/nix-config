@@ -49,6 +49,10 @@
         pipeline = "pipeline_default";
         static-blur = true;
       };
+
+      "org/gnome/nautilus/icon-view" = {
+        default-zoom-level = "small";
+      };
     };
   };
 }
