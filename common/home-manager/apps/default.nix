@@ -36,7 +36,6 @@ in
     # GNOME extensions
     gnomeExtensions.dash-to-dock
     gnomeExtensions.gsconnect
-    gnomeExtensions.blur-my-shell
     gnomeExtensions.appindicator
     gnomeExtensions.window-is-ready-remover
     gnomeExtensions.tiling-assistant
