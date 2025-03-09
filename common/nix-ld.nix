@@ -4,7 +4,6 @@
   # Make Node.js and JetBrains IDEs work properly
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
-    fnm
     SDL
     SDL2
     SDL2_image
